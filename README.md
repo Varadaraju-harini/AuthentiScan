@@ -1,5 +1,5 @@
-# Computer-Vision-Project
-Mobile App for QR Code , Date and logo detection done as a part of Computer Vision course
+# AuthentiScan: A Mobile App Ensuring Genuine Product Integrity via QR, Logo, and Date Recognition
+Mobile App for QR Code , Date and logo detection for finding Fake PRoducts
 
 QR code : Missing QR code is detected using the inbuilt QRCodeDetector() present cv2 library   
 Logo    : Used SIFT feature matching. Few logos are priorly stored in a folder. SIFT feature matching is done for the input image with every logo present in the folder. If the none of the logo is passing the minimun match count then the logo will be marked missing  
